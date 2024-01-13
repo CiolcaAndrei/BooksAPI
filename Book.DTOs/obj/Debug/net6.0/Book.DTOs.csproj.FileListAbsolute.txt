@@ -1,0 +1,12 @@
+E:\Angular project\BooksAPI\Book.DTOs\bin\Debug\net6.0\Book.DTOs.deps.json
+E:\Angular project\BooksAPI\Book.DTOs\bin\Debug\net6.0\Book.DTOs.dll
+E:\Angular project\BooksAPI\Book.DTOs\bin\Debug\net6.0\Book.DTOs.pdb
+E:\Angular project\BooksAPI\Book.DTOs\obj\Debug\net6.0\Book.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+E:\Angular project\BooksAPI\Book.DTOs\obj\Debug\net6.0\Book.DTOs.AssemblyInfoInputs.cache
+E:\Angular project\BooksAPI\Book.DTOs\obj\Debug\net6.0\Book.DTOs.AssemblyInfo.cs
+E:\Angular project\BooksAPI\Book.DTOs\obj\Debug\net6.0\Book.DTOs.csproj.CoreCompileInputs.cache
+E:\Angular project\BooksAPI\Book.DTOs\obj\Debug\net6.0\Book.DTOs.sourcelink.json
+E:\Angular project\BooksAPI\Book.DTOs\obj\Debug\net6.0\Book.DTOs.dll
+E:\Angular project\BooksAPI\Book.DTOs\obj\Debug\net6.0\refint\Book.DTOs.dll
+E:\Angular project\BooksAPI\Book.DTOs\obj\Debug\net6.0\Book.DTOs.pdb
+E:\Angular project\BooksAPI\Book.DTOs\obj\Debug\net6.0\ref\Book.DTOs.dll

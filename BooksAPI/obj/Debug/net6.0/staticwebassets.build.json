@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "X7en5D0vqM6zmQJc3tEHT+gtWqRu+Qy6yzoiO0stc08=",
-  "Source": "BooksAPI",
-  "BasePath": "_content/BooksAPI",
+  "Hash": "tq9swsxp4nvViVwVj0D+x61rKzYTNvW+Xs9+1ngK+Q0=",
+  "Source": "Books.API",
+  "BasePath": "_content/Books.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

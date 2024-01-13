@@ -1,0 +1,15 @@
+E:\Angular project\BooksAPI\Books.Data\bin\Debug\net6.0\Books.Data.deps.json
+E:\Angular project\BooksAPI\Books.Data\bin\Debug\net6.0\Books.Data.runtimeconfig.json
+E:\Angular project\BooksAPI\Books.Data\bin\Debug\net6.0\Books.Data.dll
+E:\Angular project\BooksAPI\Books.Data\bin\Debug\net6.0\Books.Data.pdb
+E:\Angular project\BooksAPI\Books.Data\obj\Debug\net6.0\Books.Data.csproj.AssemblyReference.cache
+E:\Angular project\BooksAPI\Books.Data\obj\Debug\net6.0\Books.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Angular project\BooksAPI\Books.Data\obj\Debug\net6.0\Books.Data.AssemblyInfoInputs.cache
+E:\Angular project\BooksAPI\Books.Data\obj\Debug\net6.0\Books.Data.AssemblyInfo.cs
+E:\Angular project\BooksAPI\Books.Data\obj\Debug\net6.0\Books.Data.csproj.CoreCompileInputs.cache
+E:\Angular project\BooksAPI\Books.Data\obj\Debug\net6.0\Books.Data.sourcelink.json
+E:\Angular project\BooksAPI\Books.Data\obj\Debug\net6.0\Books.Data.dll
+E:\Angular project\BooksAPI\Books.Data\obj\Debug\net6.0\refint\Books.Data.dll
+E:\Angular project\BooksAPI\Books.Data\obj\Debug\net6.0\Books.Data.pdb
+E:\Angular project\BooksAPI\Books.Data\obj\Debug\net6.0\Books.Data.genruntimeconfig.cache
+E:\Angular project\BooksAPI\Books.Data\obj\Debug\net6.0\ref\Books.Data.dll
