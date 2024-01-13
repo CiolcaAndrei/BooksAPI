@@ -1,4 +1,5 @@
 ﻿using Book.DTOs;
+using Book.Profiles;
 using Books.Services.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -66,11 +67,18 @@ namespace Books.API.Controllers
         }
 
         [HttpGet(Name = "GetBooks")]
-        public ActionResult<IEnumerable<Books.Data.Entities.Book>> Get()
+        public ActionResult<IEnumerable<BookDTO>> Get()
         {
             try
             {
-                var result = _booksService.GetBooks();
+                var result = new List<BookDTO>();
+
+                var books = _booksService.GetBooks();
+
+                foreach (var book in books)
+                {
+                    result.Add(BookProfile.Get(book));
+                }
 
                 return Ok(result);
             }
@@ -81,11 +89,11 @@ namespace Books.API.Controllers
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Books.Data.Entities.Book?> GetById(int id)
+        public ActionResult<BookDTO?> GetById(int id)
         {
             try
             {
-                var result = _booksService.GetById(id);
+                var result = BookProfile.Get(_booksService.GetById(id));
 
                 if (result is null)
                 {
@@ -102,11 +110,11 @@ namespace Books.API.Controllers
         }
 
         [HttpPost]
-        public ActionResult<Books.Data.Entities.Book> Post(Books.Data.Entities.Book book)
+        public ActionResult<BookDTO> Post(BookDTO book)
         {
             try
             {
-                var result = _booksService.Insert(book);
+                var result = _booksService.Insert(BookProfile.Get(book));
 
                 return Ok(result);
 
@@ -140,11 +148,11 @@ namespace Books.API.Controllers
         }
 
         [HttpPut]
-        public ActionResult<Books.Data.Entities.Book> Put(Books.Data.Entities.Book book)
+        public ActionResult<BookDTO> Put(BookDTO book)
         {
             try
             {
-                var updatedBook = _booksService.Update(book);
+                var updatedBook = _booksService.Update(BookProfile.Get(book));
 
                 return Ok(updatedBook);
 

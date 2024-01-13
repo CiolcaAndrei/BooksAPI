@@ -77,3 +77,5 @@ E:\Angular project\BooksAPI\BooksAPI\obj\Debug\net6.0\refint\Books.API.dll
 E:\Angular project\BooksAPI\BooksAPI\obj\Debug\net6.0\Books.API.pdb
 E:\Angular project\BooksAPI\BooksAPI\obj\Debug\net6.0\Books.API.genruntimeconfig.cache
 E:\Angular project\BooksAPI\BooksAPI\obj\Debug\net6.0\ref\Books.API.dll
+E:\Angular project\BooksAPI\BooksAPI\bin\Debug\net6.0\Book.Profiles.dll
+E:\Angular project\BooksAPI\BooksAPI\bin\Debug\net6.0\Book.Profiles.pdb

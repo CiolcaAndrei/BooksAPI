@@ -722,6 +722,20 @@
           "bin/placeholder/Book.DTOs.dll": {}
         }
       },
+      "Book.Profiles/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Book.DTOs": "1.0.0",
+          "Books.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Book.Profiles.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Book.Profiles.dll": {}
+        }
+      },
       "Books.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1642,6 +1656,11 @@
       "path": "../Book.DTOs/Book.DTOs.csproj",
       "msbuildProject": "../Book.DTOs/Book.DTOs.csproj"
     },
+    "Book.Profiles/1.0.0": {
+      "type": "project",
+      "path": "../Book.Profiles/Book.Profiles.csproj",
+      "msbuildProject": "../Book.Profiles/Book.Profiles.csproj"
+    },
     "Books.Data/1.0.0": {
       "type": "project",
       "path": "../Books.Data/Books.Data.csproj",
@@ -1656,6 +1675,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Book.DTOs >= 1.0.0",
+      "Book.Profiles >= 1.0.0",
       "Books.Data >= 1.0.0",
       "Books.Services >= 1.0.0",
       "Microsoft.AspNet.WebApi.Cors >= 5.3.0",
@@ -1692,6 +1712,9 @@
           "projectReferences": {
             "E:\\Angular project\\BooksAPI\\Book.DTOs\\Book.DTOs.csproj": {
               "projectPath": "E:\\Angular project\\BooksAPI\\Book.DTOs\\Book.DTOs.csproj"
+            },
+            "E:\\Angular project\\BooksAPI\\Book.Profiles\\Book.Profiles.csproj": {
+              "projectPath": "E:\\Angular project\\BooksAPI\\Book.Profiles\\Book.Profiles.csproj"
             },
             "E:\\Angular project\\BooksAPI\\Books.Data\\Books.Data.csproj": {
               "projectPath": "E:\\Angular project\\BooksAPI\\Books.Data\\Books.Data.csproj"

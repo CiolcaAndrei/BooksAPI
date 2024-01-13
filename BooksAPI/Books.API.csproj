@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Book.DTOs\Book.DTOs.csproj" />
+    <ProjectReference Include="..\Book.Profiles\Book.Profiles.csproj" />
     <ProjectReference Include="..\Books.Data\Books.Data.csproj" />
     <ProjectReference Include="..\Books.Services\Books.Services.csproj" />
   </ItemGroup>

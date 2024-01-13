@@ -9,6 +9,7 @@
       "Books.API/1.0.0": {
         "dependencies": {
           "Book.DTOs": "1.0.0",
+          "Book.Profiles": "1.0.0",
           "Books.Data": "1.0.0",
           "Books.Services": "1.0.0",
           "Microsoft.AspNet.WebApi.Cors": "5.3.0",
@@ -447,6 +448,15 @@
           "Book.DTOs.dll": {}
         }
       },
+      "Book.Profiles/1.0.0": {
+        "dependencies": {
+          "Book.DTOs": "1.0.0",
+          "Books.Data": "1.0.0"
+        },
+        "runtime": {
+          "Book.Profiles.dll": {}
+        }
+      },
       "Books.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.26"
@@ -745,6 +755,11 @@
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
     },
     "Book.DTOs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Book.Profiles/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
